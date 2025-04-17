@@ -1,0 +1,78 @@
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Resource Hub</title>
+</head>
+<body>
+    <!-- Content will go here -->
+</body>
+</html>
+```
+
+Step 3: Add Navigation Menu
+1. Add a navigation menu with links to each section:
+```
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#theory-notes">Theory Notes</a></li>
+        <li><a href="#lab-manual">Lab Manual</a></li>
+        <li><a href="#references">References</a></li>
+    </ul>
+</nav>
+```
+
+Step 4: Create Sections
+1. Create the Home section:
+```
+<div id="home">
+    <h1>Welcome to Course Resource Hub</h1>
+</div>
+```
+2. Create the Theory Notes section:
+```
+<div id="theory-notes">
+    <h1>Theory Notes</h1>
+    <!-- Add theory notes content here -->
+</div>
+```
+3. Create the Lab Manual section:
+```
+<div id="lab-manual">
+    <h1>Lab Manual</h1>
+    <!-- Add lab manual content here -->
+</div>
+```
+4. Create the References section:
+```
+<div id="references">
+    <h1>References</h1>
+    <ul>
+        <!-- Add references with links here -->
+        <li><a href="https://www.example.com" target="_blank">Example Website</a></li>
+        <!-- Add more references -->
+    </ul>
+</div>
+```
+
+Step 5: Add CSS Styling (Optional)
+1. Create a new file and save it with a `.css` extension (e.g., `style.css`).
+2. Link the CSS file to your HTML file:
+```
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+```
+3. Add CSS styles to customize the layout and appearance.
+
+Step 6: Add JavaScript (Optional)
+1. Create a new file and save it with a `.js` extension (e.g., `script.js`).
+2. Link the JavaScript file to your HTML file:
+```
+<body>
+    <!-- Content -->
+    <script src="script.js"></script>
+</body>
+```
+ 
